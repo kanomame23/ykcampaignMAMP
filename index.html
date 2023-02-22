@@ -8,25 +8,33 @@
     <title>campaign</title>
 </head>
 <body>
+    <script src="script.js"></script>
     <div class="header">
-        <img class="logo" src="/image/ logo.jpg">
-        <nav class="nav">
-            <ul class="nav_menu_ul">
-              <li class="nav_menu_li"><a href="#">お引っ越しキャンペーンとは</a></li>
-              <li class="nav_menu_li"><a href="#">キャンペーン特典</a></li>
-              <li class="nav_menu_li"><a href="#">店舗＆スタッフ紹介</a></li>
-              <li class="nav_menu_li"><a href="#">倉敷沖新店を予約する</a></li>
-              <li class="nav_menu_li"><a href="#">倉敷駅前店を予約する</a></li>
-              <li class="nav_menu_li"><a href="#">新倉敷駅前店を予約する</a></li>
-              <li class="nav_menu_li"><a href="#">水島店を予約する</a></li>
-              <li class="nav_menu_li"><a href="#">よくある質問</a></li>
-            </ul>
-        </nav>
-        <img src="/image/main_catch.png">
-          
+        <div class="header__inner">
+            <img class="header__logo" href="#" src="/image/ logo.jpg">
+                <nav class="header__nav nav" id="js-nav">
+                    <ul class="nav-items">
+                    <li class="nav-items__item"><a href="#">お引っ越しキャンペーンとは</a></li>
+                    <li class="nav-items__item"><a href="#">キャンペーン特典</a></li>
+                    <li class="nav-items__item"><a href="#">店舗＆スタッフ紹介</a></li>
+                    <li class="nav-items__item"><a href="#">倉敷沖新店を予約する</a></li>
+                    <li class="nav-items__item"><a href="#">倉敷駅前店を予約する</a></li>
+                    <li class="nav-items__item"><a href="#">新倉敷駅前店を予約する</a></li>
+                    <li class="nav-items__item"><a href="#">水島店を予約する</a></li>
+                    <li class="nav-items__item"><a href="#">よくある質問</a></li>
+                    </ul>
+                </nav>
+            <button class="header__hamburger  hamburger" id="js-hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>     
     </div>
-    <div class="main">
+    <main>
         <section class="summary">
+            <div class="summary__img">
+            <img src="/image/main_catch.png"></div>
             <h2>お引っ越し応援キャンペーンとは？</h2>
             <p>お引っ越しおうキャンペーンとは、弊社YKが運営するアパマンショップ4店舗でご契約いただいたお客様が対象のキャンペーンです。</p>
             <p>「そろそろ引っ越したいな」「もっと広い部屋に住みたいな」なんて方に
@@ -108,7 +116,7 @@
             <p>WEBでも電話でもご予約可能です。下記「WEBからお問い合わせ」のボタンからもWEB予約可能です</p>
             <a href="#" class="btn">WEBでお問い合わせ</a>
         </section>
-    </div>
+    </main>
     <div class="footer">
         <img src="/image/ logo.jpg">
         <a href="https://www.chinsta.jp/">株式会社ワイケイ</a>
@@ -117,5 +125,7 @@
         <p>不動産のことならどんなことでもお任せください。</p>
         <p>©︎2023 YK</p>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
