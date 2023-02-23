@@ -9,8 +9,29 @@
 </head>
 <body>
     <script src="script.js"></script>
-    <div class="header">
-        <div class="header__inner">
+    <header>
+        <div class="header-logo-menu">
+            <div id="nav-drawer">
+                <input id="nav-input" type="checkbox" class="nav-unshown">
+                <label id="nav-open" for="nav-input"><span></span></label>
+                <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+                <div id="nav-content">
+                    <ul class="nav-items">
+                        <li class="nav-items__item"><a href="#01">お引っ越しキャンペーンとは</a></li>
+                        <li class="nav-items__item"><a href="#02">キャンペーン特典</a></li>
+                        <li class="nav-items__item"><a href="#03">店舗＆スタッフ紹介</a></li>
+                        <li class="nav-items__item"><a href="#04">倉敷沖新店を予約する</a></li>
+                        <li class="nav-items__item"><a href="#05">倉敷駅前店を予約する</a></li>
+                        <li class="nav-items__item"><a href="#06">新倉敷駅前店を予約する</a></li>
+                        <li class="nav-items__item"><a href="#07">水島店を予約する</a></li>
+                        <li class="nav-items__item"><a href="#08">よくある質問</a></li>
+                        </ul>
+                </div>
+            </div>
+            <div class="logo-area"></div>
+            <img class="header__logo" href="#" src="/image/ logo.jpg">
+            </div>
+        <!-- <div class="header__inner">
             <img class="header__logo" href="#" src="/image/ logo.jpg">
                 <nav class="header__nav nav" id="js-nav">
                     <ul class="nav-items">
@@ -29,13 +50,13 @@
                 <span></span>
                 <span></span>
             </button>
-        </div>     
-    </div>
+        </div>      -->
+    </header>
     <main>
         <section class="summary">
             <div class="summary__img">
             <img class="summary-img__txt" src="/image/main_catch.png"></div>
-            <h2>お引っ越し応援キャンペーンとは？</h2>
+            <h2 id="01">お引っ越し応援キャンペーンとは？</h2>
             <p>お引っ越しおうキャンペーンとは、弊社YKが運営するアパマンショップ4店舗でご契約いただいたお客様が対象のキャンペーンです。</p>
             <p>「そろそろ引っ越したいな」「もっと広い部屋に住みたいな」なんて方に
                 ぜひお使いいただきたいお得なキャンペーンです！
@@ -44,16 +65,16 @@
             <a href="#" class="btn">WEBでお問い合わせ</a>
         </section>
         <section class="privilage">
-            <h2>キャンペーン特典</h2>
+            <h2 id="02">キャンペーン特典</h2>
             <p>お部屋の新規契約の際、仲介手数料半額！</p>
             <p>お引っ越しの際、軽トラ貸し出し無料</p>
             <p>面倒くさい火災保険等の引き継ぎ作業不要！(弊社で行います)</p>
             <a href="#" class="btn">WEBでお問い合わせ</a>
         </section>
         <section class="about">
-            <h2>店舗＆スタッフ紹介</h2>
+            <h2 id="03">店舗＆スタッフ紹介</h2>
             <div class="about__okishin">
-                <h3>倉敷沖新店</h3>
+                <h3 id="#04">倉敷沖新店</h3>
                 <div class="about__okishin-shop">
                     <img src="/image/okishin_gaikan.jpeg">
                     <p>住所</p>
@@ -67,7 +88,7 @@
                 <div class="about__okishin-staff"></div>
             </div>
             <div class="about__ekimae"></div>
-            <h3>倉敷駅前店</h3>
+            <h3 id="05">倉敷駅前店</h3>
                 <div class="about__ekimae-shop">
                     <img src="/image/ekimae_gaikan.jpeg">
                     <p>住所</p>
@@ -80,7 +101,7 @@
                 </div>
                 <div class="about__ekimae-staff"></div>
             <div class="about__shinkura"></div>
-            <h3>新倉敷駅前店</h3>
+            <h3 id="06">新倉敷駅前店</h3>
                 <div class="about__shinkura-shop">
                     <img src="/image/shinkurashiki_gaikan.jpeg">
                     <p>住所</p>
@@ -93,7 +114,7 @@
                 </div>
                 <div class="about__shinkura-staff"></div>
             <div class="about__mizushima"></div>
-            <h3>水島店</h3>
+            <h3 id="07">水島店</h3>
                 <div class="about__mizushima-shop">
                     <img src="/image/mizushima_gaikan.jpeg">
                     <p>住所</p>
@@ -107,7 +128,7 @@
                 <div class="about__mizushima-staff"></div>
         </section>
         <section class="question">
-            <h2>よくある質問</h2>
+            <h2 id="08">よくある質問</h2>
             <p>どのようにしたらキャンペーンが適用されますか？</p>
             <p>キャンペーン対象の方にお送りしておりますハガキをご持参ください</p>
             <p>キャンペーンはどの店舗で実施していますか？</p>

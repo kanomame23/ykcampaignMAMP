@@ -5,3 +5,11 @@ ham.on('click', function () { //ハンバーガーメニューをクリックし
   nav.toggleClass('active'); // ナビゲーションメニューにactiveクラスを付け外し
 
 });
+
+<script>
+$(function() {
+  $('#nav-content li a').on('click', function(event) {
+    $('#nav-input').prop('checked', false);
+  });
+});
+</script>
