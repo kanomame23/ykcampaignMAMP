@@ -199,3 +199,12 @@ main {
   height: 200px;
   display: flex;
 }
+
+/* トップイメージ画像 */
+.summary__img {
+  margin-top: 80px;
+}
+
+.summary-img__txt {
+  width: 100%;
+}
